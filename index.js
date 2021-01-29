@@ -9,10 +9,12 @@ const PushNotifyManager = require('./lib/job/pushNotify');
 const CONSTANTS = require('./lib/const');
 const bodyParser = require('body-parser')
 const redisConnections = require('./lib/connections/redis');
+var cors = require('cors')
 
 const mapUserToSocket = {};
 
 app.use(bodyParser.json());
+app.use(cors())
 
 app.get('/', function (req, res) {
   res.send("Hello world!")
