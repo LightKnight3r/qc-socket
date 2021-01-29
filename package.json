@@ -1,0 +1,33 @@
+{
+  "name": "sanship-handle-order",
+  "version": "1.0.0",
+  "description": "Handle new order from user in system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node index.js --presets es2015"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/tuanhm/sanship-handle-order.git"
+  },
+  "author": "tuanhm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/tuanhm/sanship-handle-order/issues"
+  },
+  "homepage": "https://gitlab.com/tuanhm/sanship-handle-order#README",
+  "dependencies": {
+    "async": "2.1.4",
+    "body-parser": "^1.18.2",
+    "config": "1.24.0",
+    "express": "^4.14.1",
+    "lodash": "4.17.2",
+    "mongoose": "4.7.1",
+    "ms": "0.7.2",
+    "redis": "^2.8.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "socket.io": "^2.0.3"
+  }
+}
